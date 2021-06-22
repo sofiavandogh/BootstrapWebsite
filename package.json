@@ -1,0 +1,21 @@
+{
+  "name": "bootstrapv5",
+  "version": "1.0.0",
+  "description": "Bootsrap Website using Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Sofia Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

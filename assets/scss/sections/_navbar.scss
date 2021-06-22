@@ -1,0 +1,29 @@
+@import "../custom";
+
+.menu {
+  @include gradient;
+  height: 100px;
+
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white !important;
+      font-weight: 600;
+    }
+  }
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  .container {
+    padding-top: 25px;
+    a {
+      img {
+        width: 80px;
+        height: 50px;
+      }
+    }
+  }
+}
